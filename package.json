@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/kimani-mbuguah/house-of-destiny-church#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-remove-empty-lines": "^0.1.0"
   }
 }
