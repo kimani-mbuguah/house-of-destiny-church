@@ -1,0 +1,28 @@
+{
+  "name": "house-of-destiny-church",
+  "version": "1.0.0",
+  "description": "The house of destiny church-kerugoya official website (pwa)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimani-mbuguah/house-of-destiny-church.git"
+  },
+  "keywords": [
+    "House",
+    "of",
+    "destiny",
+    "kerugoya"
+  ],
+  "author": "Kimani Mbuguah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimani-mbuguah/house-of-destiny-church/issues"
+  },
+  "homepage": "https://github.com/kimani-mbuguah/house-of-destiny-church#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
