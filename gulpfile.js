@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const removeEmptyLines = require('gulp-remove-empty-lines');
 const htmlbeautify = require('gulp-html-beautify');
+const browserSync = require('browser-sync').create();
  
 gulp.task('tojson', function () {
   gulp.src('./raw/*.html')
@@ -23,4 +24,13 @@ gulp.task('htmlbeautify', function() {
   gulp.src('./raw/*.html')
     .pipe(htmlbeautify(options))
     .pipe(gulp.dest('./'))
+});
+
+// Static server
+gulp.task('browser-sync', function() {
+    browserSync.init({
+        server: {
+            baseDir: "./"
+        }
+    });
 });
