@@ -10,7 +10,7 @@ gulp.task('tojson', function () {
 });
  
 gulp.task('htmlClean', function () {
-  gulp.src('./raw/about.html')
+  gulp.src('./raw/contact.html')
   .pipe(removeEmptyLines({
     removeComments: false
   }))
