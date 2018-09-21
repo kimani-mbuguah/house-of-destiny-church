@@ -2,6 +2,13 @@ const gulp = require('gulp');
 const removeEmptyLines = require('gulp-remove-empty-lines');
 const htmlbeautify = require('gulp-html-beautify');
 const browserSync = require('browser-sync').create();
+const image = require('gulp-image');
+ 
+gulp.task('image', function () {
+  gulp.src('./images/resource/*')
+    .pipe(image())
+    .pipe(gulp.dest('./dest'));
+});
  
 gulp.task('tojson', function () {
   gulp.src('./raw/*.html')
